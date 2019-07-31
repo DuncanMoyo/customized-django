@@ -128,12 +128,12 @@ STATIC_ROOT = os.path.join(VENV_PATH, 'static/')
 
 # SENDGRID SETTINGS, FOR SENDING EMAILS
 
-SEND_GRID_API_KEY = os.getenv('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')
+SEND_GRID_API_KEY = os.getenv('YOUR API KEY')
 
 
 EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'DuncanZim'# your sendgrid username
-EMAIL_HOST_PASSWORD = 'tAP9@PJuFJAxcBv'#sendgrid password
+EMAIL_HOST_USER = 'YOUR USERNAME'# your sendgrid username
+EMAIL_HOST_PASSWORD = ''#sendgrid password
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 #DEFAULT_FROM_EMAIL = 'duncanfmoyo@gmail.com'#'your sendgrid email'
