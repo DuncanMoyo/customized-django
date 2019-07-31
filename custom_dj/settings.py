@@ -136,7 +136,7 @@ EMAIL_HOST_USER = 'YOUR USERNAME'# your sendgrid username
 EMAIL_HOST_PASSWORD = ''#sendgrid password
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-#DEFAULT_FROM_EMAIL = 'duncanfmoyo@gmail.com'#'your sendgrid email'
+#DEFAULT_FROM_EMAIL = ''#'your sendgrid email'
 #ACCOUNT_EMAIL_SUBJECT_PREFIX = 'contact email received from my website'
 #MAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
